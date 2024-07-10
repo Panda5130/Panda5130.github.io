@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Shivam Panda",
+    "label": "Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "shivpan@umich.edu", "shivampanda1@gmail.com"
+    "phone": "(734) 596-8169",
+    "url": "https://panda5130.github.io",
+    "summary": "An aspiring physicist, mathematician and computer Scientist",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -24,13 +24,13 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Lyssiotis Lab, U-M North Campus Research Centre",
+      "position": "Student Research Assitant",
+      "url": "https://pancreas.med.umich.edu/lyssiotis-lab/",
+      "startDate": "2023-07-01",
+      "endDate": "2024-04-01",
+      "summary": "As part of a mass spectroscopy lab servicing cancer biologist all over the world, I prepared samples, ran them through speciallized instruments, analyzed and reported data and assisted in intrumentation maintenance and upkeep",
+      "highlights": ["Lab Experience: sonnicators, dessicator, QQQ and Ion-Trap Mass analyzers, Skyline, Masshunter"]
     }
   ],
   "volunteer": [
