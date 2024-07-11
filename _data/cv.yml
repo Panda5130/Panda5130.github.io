@@ -17,8 +17,8 @@
       description:
         - title: Pursuing a double major in Physics and Mathematics
           contents:
-            - CGPA: 3
-            - Physics GPA: 3.2
+            - CGPA - 3
+            - Physics GPA - 3.2
     - title: High School - CISCE Certification
       institution: Greenwood High
       year: 2021
@@ -29,7 +29,7 @@
   contents:
     - title: Student Research Assistanty
       institution: Lyssiotis Lab, NCRC (UM-AA)
-      year: 2023-2024
+      year: 2023 - 2024
       description:
         -  As part of a mass spectroscopy lab servicing cancer biologist all over the world, I prepared samples, ran them through speciallized instruments, analyzed and reported data and assisted in intrumentation maintenance and upkeep
         - title: Lab Experience
@@ -37,16 +37,23 @@
             - sonnicator and dessicator
             - QQQ and Ion-Trap Mass analyzers
             - Skyline and Masshunter
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+            
+    - title: Peer Tutor
+      institution: Science Learning Centre, UM-AA
+      year: 2022 - 2024
+      description: I tutored college students in college level intro mechanics with calculus. The role involved making meticulous agendas, planning for sessions and working in tandem with students and professors to show class improvement.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Summer Research Assistant.
+      institution: Spintronics Lab, Indian Institute of Sciences, Bangalore, KA
+      year: 2022
+      description: 
+        - Nanomagnetic devices synthesized with metallic layers called synthetic antiferromagnets can be tweaked in such a way that the perpendicular magnetization provides a means of encoding bit information in with density standards surpassing industry’s status quo. 
+        - At this lab I performed characterization tests on deposited samples, noticed trends in optimal non-magnetic layer thickness, and assisted with the deposition of new samples.
+        - title: Lab Experience
+          contents:
+            - Clean Room Protocol 
+            - Sputtering, Lithography, Lift-oﬀ
+            - Kerr Microscope & VSM
 
     - title: Professor of Theoretical Physics
       institution: Karl-Ferdinand University, Prague, Czechoslovakia
