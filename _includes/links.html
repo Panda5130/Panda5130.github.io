@@ -1,0 +1,6 @@
+<ul class="links">
+  {% if site.links.substack != "" %}<li><a href="{{ site.links.substack }}" rel="me">Substack</a></li>{% endif %}
+  {% if site.links.linkedin != "" %}<li><a href="{{ site.links.linkedin }}" rel="me">LinkedIn</a></li>{% endif %}
+  {% if site.links.github != "" %}<li><a href="{{ site.links.github }}" rel="me">GitHub</a></li>{% endif %}
+  {% if site.email != "" %}<li><a href="mailto:{{ site.email }}">Email</a></li>{% endif %}
+</ul>

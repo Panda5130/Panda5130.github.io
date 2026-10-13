@@ -1,0 +1,17 @@
+{% assign projects = site.projects | sort: "date" | reverse %}
+{% if include.limit %}{% assign projects = projects | where: "featured", true %}{% endif %}
+{% if projects.size > 0 %}
+<ul class="cards">
+  {% assign lim = include.limit | default: 1000 %}
+  {% for p in projects limit: lim %}
+  <li>
+    <a href="{{ p.url | relative_url }}">
+      <h3>{{ p.title }}</h3>
+      {% if p.summary %}<p>{{ p.summary }}</p>{% endif %}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p class="muted">Projects coming soon.</p>
+{% endif %}
