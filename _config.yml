@@ -2,11 +2,10 @@
 # Site settings. Edit these, push, and the site redeploys on its own.
 # ---------------------------------------------------------------------------
 title: Shivam Panda
-description: Student at the University of Michigan. Notes, projects and writing.
+description: Math and physics graduate (University of Michigan) building a specialization in quantitative finance.
 url: https://panda5130.github.io
 baseurl: ""
 lang: en
-email: shivpan@umich.edu
 
 # Profile links. Leave a value empty to hide that link.
 links:
