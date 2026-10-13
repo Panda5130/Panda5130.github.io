@@ -1,6 +1,6 @@
 """Fetch the latest Substack posts into _data/substack.json.
 
-Reads links.substack from _config.yml. Run by the deploy workflow before
+Reads substack_feed from _config.yml. Run by the deploy workflow before
 each build; leaves the file untouched if the feed can't be reached.
 """
 import json
@@ -11,10 +11,10 @@ import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 
 config = open("_config.yml", encoding="utf-8").read()
-match = re.search(r'^\s*substack:\s*"?([^"#\s]*)"?', config, re.M)
+match = re.search(r'^substack_feed:\s*"?([^"#\s]*)"?', config, re.M)
 base = match.group(1).rstrip("/") if match else ""
 if not base:
-    print("No Substack URL set; skipping.")
+    print("No substack_feed set; skipping.")
     sys.exit(0)
 
 try:

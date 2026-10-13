@@ -10,16 +10,19 @@ email: shivpan@umich.edu
 
 # Profile links. Leave a value empty to hide that link.
 links:
-  substack: ""        # e.g. https://yourname.substack.com
-  linkedin: ""        # e.g. https://www.linkedin.com/in/your-handle
+  substack: https://substack.com/@shivampanda
+  linkedin: https://www.linkedin.com/in/shivam-panda-uofm/
   github: https://github.com/Panda5130
 
+# Your own Substack publication (e.g. https://yourname.substack.com).
+# When set, its latest posts appear on the home page. Leave empty until you publish.
+substack_feed: ""
 # How many recent Substack posts to show on the home page.
 substack_posts: 5
 
 # Google Search Console: paste the "HTML tag" content value here.
 webmaster_verifications:
-  google: ""
+  google: "4vVAx8IxI-P3sXh_R0v85F6Py5E5_l_NDIy-VbdvQ78"
 
 # ---------------------------------------------------------------------------
 # Build settings. No need to touch these.

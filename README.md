@@ -10,6 +10,7 @@ Personal site, built by GitHub Pages from plain Markdown and HTML. No local setu
 | Substack, LinkedIn, GitHub links, email | `links:` and `email:` in `_config.yml` |
 | Add a project | Copy `_projects/_template.md` to `_projects/<name>.md` and fill it in |
 | Show a project on the home page | Set `featured: true` in that project's front matter |
+| Show your latest Substack posts | `substack_feed` in `_config.yml` (your publication URL) |
 | Colors and fonts | `assets/css/style.css` |
 
 Project images go in `assets/img/` and are referenced as `/assets/img/<file>`.
