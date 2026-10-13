@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<section class="intro">
+  <h1>Shivam Panda</h1>
+  <p>By no means does an undergrad need a personal website, but I have one. I graduated high school in India as a fairly well-scoring student, a national swimmer, a volunteer for animal welfare in my locale, and a rock and metal guitar fanatic. I am currently a senior at the University of Michigan, Ann Arbor, and my ever-evolving interests make it harder and harder to feel in touch with all facets of my personality. Aside from preserving the past, this website simply collects my thoughts and experiences in one place.</p>
+  {% include links.html %}
+</section>
+
+{% assign featured = site.projects | where: "featured", true %}
+{% if featured.size > 0 %}
+<section>
+  <h2>Selected projects</h2>
+  {% include project-list.html limit=4 %}
+  <p><a href="{{ '/projects/' | relative_url }}">All projects &rarr;</a></p>
+</section>
+{% endif %}
+
+{% if site.data.substack and site.data.substack.size > 0 %}
+<section>
+  <h2>Latest writing</h2>
+  <ul class="posts">
+    {% for post in site.data.substack limit: site.substack_posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <time datetime="{{ post.date }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+    </li>
+    {% endfor %}
+  </ul>
+  <p><a href="{{ site.links.substack }}">All posts on Substack &rarr;</a></p>
+</section>
+{% endif %}
