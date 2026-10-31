@@ -116,3 +116,7 @@ tr.sum td { font-weight: 600; border-bottom: none; }
 .rating.amber::before { color: #d08c00; }
 .rating.red::before { color: #c0392b; }
 td.wrap, th.wrap { white-space: normal; min-width: 8rem; }
+.chart .tol { fill: var(--muted); fill-opacity: 0.14; }
+.chart .line-acc.thin { stroke-width: 1.5; }
+.chart .dot-sm { fill: var(--accent); }
+.chart .dot-fail { fill: #c0392b; stroke: var(--bg); stroke-width: 1.5; }
