@@ -7,7 +7,7 @@ Personal site, built by GitHub Pages from plain Markdown and HTML. No local setu
 | To change | Edit |
 | --- | --- |
 | Bio | `index.html` (the paragraph under the heading) |
-| Substack, LinkedIn, GitHub links | `links:` in `_config.yml` |
+| Substack ("Writing"), LinkedIn, GitHub links (header) | `links:` in `_config.yml` |
 | Add a project | Copy `_projects/_template.md` to `_projects/<name>.md` and fill it in |
 | Show a project on the home page | Set `featured: true` in that project's front matter |
 | Show your latest Substack posts | `substack_feed` in `_config.yml` (your publication URL) |
