@@ -5,6 +5,14 @@
   --line: #e4e3de;
   --card: #ffffff;
   --accent: #2f5bd3;
+  /* chart series (categorical, fixed order) */
+  --s1: #2a78d6;
+  --s2: #eb6834;
+  --s3: #1baf7a;
+  --s4: #eda100;
+  --s5: #e87ba4;
+  --s6: #008300;
+  --s7: #6250d6;
   --max: 42rem;
 }
 :root { color-scheme: light; }
@@ -18,6 +26,13 @@
     --line: #2a2a28;
     --card: #1a1a19;
     --accent: #8aa8ff;
+    --s1: #3987e5;
+    --s2: #d95926;
+    --s3: #199e70;
+    --s4: #c98500;
+    --s5: #d55181;
+    --s6: #008300;
+    --s7: #9085e9;
   }
 }
 :root[data-theme="dark"] {
@@ -28,6 +43,13 @@
   --line: #2a2a28;
   --card: #1a1a19;
   --accent: #8aa8ff;
+  --s1: #3987e5;
+  --s2: #d95926;
+  --s3: #199e70;
+  --s4: #c98500;
+  --s5: #d55181;
+  --s6: #008300;
+  --s7: #9085e9;
 }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
@@ -162,3 +184,21 @@ td.wrap, th.wrap { white-space: normal; min-width: 8rem; }
 .chart .line-acc.thin { stroke-width: 1.5; }
 .chart .dot-sm { fill: var(--accent); }
 .chart .dot-fail { fill: #c0392b; stroke: var(--bg); stroke-width: 1.5; }
+
+/* per-bank series lines (scenario panels) */
+.chart .s1 { stroke: var(--s1); }
+.chart .f1 { fill: var(--s1); }
+.chart .s2 { stroke: var(--s2); }
+.chart .f2 { fill: var(--s2); }
+.chart .s3 { stroke: var(--s3); }
+.chart .f3 { fill: var(--s3); }
+.chart .s4 { stroke: var(--s4); }
+.chart .f4 { fill: var(--s4); }
+.chart .s5 { stroke: var(--s5); }
+.chart .f5 { fill: var(--s5); }
+.chart .s6 { stroke: var(--s6); }
+.chart .f6 { fill: var(--s6); }
+.chart .s7 { stroke: var(--s7); }
+.chart .f7 { fill: var(--s7); }
+.chart .series { fill: none; stroke-width: 1.75; stroke-linejoin: round; stroke-linecap: round; }
+.chart .series:hover { stroke-width: 3; }
